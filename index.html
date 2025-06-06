@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Eid Mubarak Greeting</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Dancing+Script:wght@700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/Styles.css">
+</head>
+<body>
+    <canvas id="particle-canvas"></canvas>
+    
+    <!-- Mobile menu button -->
+    <div class="mobile-menu-btn" id="menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+    
+    <!-- Background lanterns -->
+    <div class="lantern" style="left: 5%; animation-delay: 0s;"></div>
+    <div class="lantern" style="left: 20%; animation-delay: 2s;"></div>
+    <div class="lantern" style="left: 35%; animation-delay: 4s;"></div>
+    <div class="lantern" style="left: 70%; animation-delay: 6s;"></div>
+    <div class="lantern" style="left: 85%; animation-delay: 8s;"></div>
+    
+    <div class="container">
+        <div class="header">
+            <h1>Eid Mubarak</h1>
+            <p>May the divine blessings of Allah bring you hope, faith, and joy on Eid al-Fitr and forever</p>
+        </div>
+        
+        <div class="card-wrapper">
+            <div class="card">
+                <div class="islamic-pattern"></div>
+                
+                <div class="card-content">
+                    <div class="greeting">Eid Mubarak!</div>
+                    
+                    <div class="message">
+                        <p>As the blessed month of Ramadan comes to an end, may Allah accept your fasting, prayers, and good deeds. May this Eid bring joy, happiness, peace, and prosperity to you and your family.</p>
+                        
+                        <p><i class="fas fa-star"></i> Eid Mubarak <i class="fas fa-star"></i></p>
+                    </div>
+                    
+                    <div class="moon-container">
+                        <div class="moon"></div>
+                        <div class="crescent"></div>
+                        <div class="stars" id="stars-container"></div>
+                    </div>
+                    
+                    <div class="action-buttons">
+                        <button class="btn" id="wish-btn">
+                            <i class="fas fa-gift"></i> Send Eid Wishes
+                        </button>
+                        <button class="btn btn-share" id="share-btn">
+                            <i class="fas fa-share-alt"></i> Share Greetings
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>May Allah bless you with happiness, peace, and prosperity on this blessed day and always. May your home be filled with laughter, your heart with contentment, and your life with endless blessings.</p>
+            <p>Eid Mubarak from our family to yours!</p>
+            
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+
+   <script src="./config/app.js"></script>
+</body>
+</html>
