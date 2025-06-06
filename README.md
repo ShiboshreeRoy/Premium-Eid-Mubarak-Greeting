@@ -8,12 +8,6 @@ Welcome to the **Premium Eid Mubarak Greeting** 🎉 — a beautifully designed,
 
 ---
 
-## 📸 Preview
-
-![Eid Mubarak Greeting Screenshot](https://premium-eid-mubarak-greeting.netlify.app/preview.png) <!-- Replace with actual preview URL if available -->
-
----
-
 ## 🚀 Features
 
 * 🎨 **Elegant Design** – A modern, festive layout perfect for Eid celebrations.
